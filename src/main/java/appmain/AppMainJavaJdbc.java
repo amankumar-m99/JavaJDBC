@@ -23,7 +23,7 @@ public class AppMainJavaJdbc {
 			return;
 		}
 		executeCreateQueries(connection);
-		new AppConsole().start(connection);
+		new AppConsole().start();
 	}
 
 	private static void executeCreateQueries(Connection connection) {
